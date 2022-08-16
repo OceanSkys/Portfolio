@@ -138,10 +138,10 @@ export default function MyProjects() {
             <footer class="container-fluid footer1 bg-light mt-3">
               <div class="col-6 d-flex flex-shrink-2 align-items-center fa-3x mx-1 footer1 footerdiv">
                   {/* <!-- Tried using stylesheet to edit these font icons, no luck, so used inline style --> */}
-                  <FontAwesomeIcon icon={faGithub} style={{textDecoration: 'none', color: 'black', height:'50px', width:'50px'}}/>
-                  <FontAwesomeIcon icon={faInstagram} style={{textDecoration: 'none', color: 'red', height:'50px', width:'50px'}}/>
-                  <FontAwesomeIcon icon={faFacebook} style={{textDecoration: 'none', color: 'blue', height:'50px', width:'50px'}}/>
-                  <FontAwesomeIcon icon={faPinterest} style={{textDecoration: 'none', color: 'red', height:'50px', width:'50px'}}/>
+                  <a href="https://github.com/OceanSkys" target="_blank"><FontAwesomeIcon icon={faGithub} style={{textDecoration: 'none', color: 'black', height:'50px', width:'50px'}}/></a>
+                  <a href="https://www.instagram.com/jeremyyzz/" target="_blank"><FontAwesomeIcon icon={faInstagram} style={{textDecoration: 'none', color: 'red', height:'50px', width:'50px'}}/></a>
+                  <a href="https://www.facebook.com/profile.php?id=100009856054876" target="_blank"><FontAwesomeIcon icon={faFacebook} style={{textDecoration: 'none', color: 'blue', height:'50px', width:'50px'}}/></a>
+                  <a href="https://www.pinterest.com/" target="_blank"><FontAwesomeIcon icon={faPinterest} style={{textDecoration: 'none', color: 'red', height:'50px', width:'50px'}}/></a>
                   <h5 class="px-3 font">Give me a Follow!</h5>
               </div>
               <div class="col-6 d-flex justify-content-end align-items-center px-3 footerdiv">

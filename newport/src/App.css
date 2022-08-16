@@ -265,7 +265,10 @@
   }
   .footer2{
       display: flex;
-      height: 70px;
+      height: 100px;
+      position: fixed;
+      left: 0;
+      bottom: 0;
   }
   .footer3{
       display: flex;
