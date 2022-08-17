@@ -32,7 +32,7 @@ border-radius: 30%;
     height: 440px;
     object-fit: contain;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
   }
   .follow-me{
     height: auto;
