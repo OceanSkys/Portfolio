@@ -3,39 +3,12 @@ import Beach from '../img/Beach.jpg'
 import Laptop from '../img/Laptop 1.JPG'
 import Bridge from '../img/Bridge.JPG'
 import Img14 from '../img/IMG_1411.JPG'
-
+import Carousel from 'react-bootstrap/Carousel'
 
 export default function Home() {
 
     return (
     <div>
-        {/* <nav class="navbar navbar-expand-lg navbar-light bg-light fs-5"> */}
-        {/* <!-- Added google font --> */}
-        {/* <div style={{textDecoration: 'none', width: '300px', height: 'auto'}}>
-            <NavLink style={{textDecoration: 'none', width: '200px', height: 'auto', color: 'black'}} className='fs-1 mx-5 py-2 font1' to='/'>Jeremy T.</NavLink>
-        </div>
-        <button class="navbar-toggler mx-4" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse nav1 mx-1 my-1 fs-3" id="navbarNav"> */}
-            {/* <ul class="navbar-nav mx-4">
-            <li class="nav-item active px-2">
-                <a class="nav-link" href="/index.html">Home</a>
-            </li>
-            <li class="nav-item px-2">
-                <a class="nav-link" href="/my-projects.html">My Projects</a>
-            </li>
-            <li class="nav-item px-2">
-                <a class="nav-link" href="/contact.html">Contact</a>
-            </li>
-            </ul> */}
-            {/* <div style={{display: 'flex', justifyContent:'space-between', width: '390px', marginRight: '25px'}}>
-            <NavLink style={{textDecoration: 'none'}} to='/'>Home</NavLink>
-            <NavLink style={{textDecoration: 'none'}} to='/MyProjects'>My Projects</NavLink>
-            <NavLink style={{textDecoration: 'none'}} to='/Contact'>Contact</NavLink>
-            </div>
-        </div>
-        </nav> */}
         {/* <!-- Hero/parallax/welcome --> */}
         <div class="container-fluid d-flex justify-content-center  py-5 px-5 text-center parallax" id="background1">
         <div class="row d-flex justify-content-center text-center">
@@ -69,33 +42,37 @@ export default function Home() {
             <div class="col-5 d-flex justify-content-center align-items-center aboutme left_bottom">
                 <p class="font fs-4 col-8 aboutmetxt"><span class="h1 d-flex align-items-center justify-content-center font1">My Hobbies</span><br/>When I am not coding or working on college coursework, I love listening to music! Some of my favorite artists include Bon Iver, Kid Cudi, Phoebe Bridgers, and Coldplay. I also really enjoy playing videos games, and you can find me playing Rocket League, Minecraft, or Fortnite with my little brother. When I have more free time, I love to travel. Hiking is a great passion of mine as well. Photography is another great hobby that I would love to continue when I am able to afford a nice camera. </p>
             </div>
-            <div id="carouselExampleCaptions" class="colm slide d-flex p-4" data-bs-ride="carousel">
-                <div class="carousel-inner d-flex right_top">
-                <div class="carousel-item active">
-                    <img src={Beach} class="d-block carry fit-object"  alt="Jeremy at the Beach"/>
-                    <div class="carousel-caption d-none d-md-block">
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src={Laptop} class="d-block carry fit-object"  alt="Picture of a Gaming Laptop"/>
-                    <div class="carousel-caption d-none d-md-block">
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src={Bridge} class="d-block carry fit-object"  alt="Bridge at Carmel, CA"/>
-                    <div class="carousel-caption d-none d-md-block">
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src={Img14} class="d-block carry fit-object"  alt="Picture near Mammoth, CA"/>
-                    <div class="carousel-caption d-none d-md-block">
-                    </div>
-                </div>
-                </div>
-            </div>
+            <Carousel className='right_top' fade>
+                <Carousel.Item>
+                <img src={Beach} class="d-block carry fit-object2"  alt="Jeremy at the Beach"/>
+                </Carousel.Item>
+                <Carousel.Item>
+                <img src={Laptop} class="d-block carry fit-object2"  alt="Picture of a Gaming Laptop"/>
+                </Carousel.Item>
+                <Carousel.Item>
+                <img src={Bridge} class="d-block carry fit-object2"  alt="Bridge at Carmel, CA"/>
+                </Carousel.Item>
+                <Carousel.Item>
+                <img src={Img14} class="d-block carry fit-object2"  alt="Picture near Mammoth, CA"/>  
+                </Carousel.Item>
+            </Carousel>
             </row>
         </div>
         </section>
+        {/* <Carousel>
+            <Carousel.Item>
+            <img src={Beach} class="d-block carry fit-object"  alt="Jeremy at the Beach"/>
+            </Carousel.Item>
+            <Carousel.Item>
+            <img src={Laptop} class="d-block carry fit-object"  alt="Picture of a Gaming Laptop"/>
+            </Carousel.Item>
+            <Carousel.Item>
+            <img src={Bridge} class="d-block carry fit-object"  alt="Bridge at Carmel, CA"/>
+            </Carousel.Item>
+            <Carousel.Item>
+            <img src={Img14} class="d-block carry fit-object"  alt="Picture near Mammoth, CA"/>  
+            </Carousel.Item>
+        </Carousel> */}
         {/* <!-- <a class="top-link hide" href="" id="js-top"></a> --> */}
         {/* <!-- Footer Section--> */}
         {/* <footer class="container-fluid footer1 bg-light mt-3">

@@ -1,7 +1,7 @@
 {
   "name": "newport",
   "version": "0.1.0",
-  "homepage": "https://github.com/OceanSkys/Portfolio",
+  "homepage": "https://github.com/OceanSkys/Portfolio/",
   "private": true,
   "dependencies": {
     "@fortawesome/free-brands-svg-icons": "^6.1.2",
