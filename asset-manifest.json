@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/OceanSkys/Portfolio/static/css/main.b06390e7.css",
-    "main.js": "/OceanSkys/Portfolio/static/js/main.a2a8d488.js",
+    "main.js": "/OceanSkys/Portfolio/static/js/main.166db07b.js",
     "static/js/787.d168572b.chunk.js": "/OceanSkys/Portfolio/static/js/787.d168572b.chunk.js",
     "static/media/Sunlit Viola.JPG": "/OceanSkys/Portfolio/static/media/Sunlit Viola.f349a496919ba963e574.JPG",
     "static/media/IMG_1004.JPG": "/OceanSkys/Portfolio/static/media/IMG_1004.7f047f8846b236d884a4.JPG",
@@ -21,11 +21,11 @@
     "static/media/Beach.jpg": "/OceanSkys/Portfolio/static/media/Beach.8843d7b0b8dfa03d6db6.jpg",
     "index.html": "/OceanSkys/Portfolio/index.html",
     "main.b06390e7.css.map": "/OceanSkys/Portfolio/static/css/main.b06390e7.css.map",
-    "main.a2a8d488.js.map": "/OceanSkys/Portfolio/static/js/main.a2a8d488.js.map",
+    "main.166db07b.js.map": "/OceanSkys/Portfolio/static/js/main.166db07b.js.map",
     "787.d168572b.chunk.js.map": "/OceanSkys/Portfolio/static/js/787.d168572b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b06390e7.css",
-    "static/js/main.a2a8d488.js"
+    "static/js/main.166db07b.js"
   ]
 }
