@@ -12,8 +12,8 @@ export default function Home() {
         {/* <!-- Hero/parallax/welcome --> */}
         <div class="container-fluid d-flex justify-content-center  py-5 px-5 text-center parallax" id="background1">
         <div class="row d-flex justify-content-center text-center">
-            <div class= "flex-wrap font2">
-            <p >Welcome</p>
+            <div class= "flex-wrap font3">
+            <p>Welcome</p>
             </div>
         </div>
         </div>
