@@ -1,41 +1,40 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faInstagram, faFacebook, faPinterest, faGithub } from '@fortawesome/free-brands-svg-icons';
-import { NavLink } from "react-router-dom";
 import PicofMe from '../img/Picofme2.png';
 
 export default function Contact() {
 
 return (
     <div>
-  {/* <!-- Contact Forum, edited placeholders and redid a couple sections--> */}
-  <div class="container border-5 border border-color-secondary my-5 contact-form ">
-    <div class="row row-form">
-      <div class="col d-flex justify-content-center form-col">
-        <div class="row d-flex flex-column follow-me">
-          <div class="col p-2 d-flex pic-col justify-content-center align-content-center">
-            <img src={PicofMe} class=" d-flex align-content-center justify-content-center aboutmepic2 " alt="Picture of Jeremy"/> 
+      {/* <!-- Contact Forum, edited placeholders and redid a couple sections--> */}
+      <div class="container border-5 border border-color-secondary my-5 contact-form ">
+        <div class="row row-form">
+          <div class="col d-flex justify-content-center form-col">
+            <div class="row d-flex flex-column follow-me">
+              <div class="col p-2 d-flex pic-col justify-content-center align-content-center">
+                <img src={PicofMe} class=" d-flex align-content-center justify-content-center aboutmepic2 " alt="Picture of Jeremy"/> 
+              </div>
+              <div class="col d-flex email-col justify-content-center align-items-center">
+                <p class="fontEmail">Email me: <span style={{fontWeight: 'bold'}}>jeremythornton59@gmail.com</span></p>
+              </div>
+            </div>       
           </div>
-          <div class="col d-flex email-col justify-content-center align-items-center">
-            <p class="fontEmail">Email me: <span style={{fontWeight: 'bold'}}>jeremythornton59@gmail.com</span></p>
-          </div>
-        </div>       
-      </div>
-      <hr style={{height: '10px', width: '100%'}}/>
-      <div class="col-d-flex justify-content-center form-col">
-        <div class="row d-flex flex-column follow-me">
-          <div class="col d-flex justify-content-center align-items-center">
-            <p style={{fontSize: '50px'}}>Follow me at:</p>
-          </div>
-          <div class="col d-flex justify-content-center align-items-center">
-            <a href="https://github.com/OceanSkys" target="_blank"><FontAwesomeIcon icon={faGithub} className="p-1 fa-5x" style={{textDecoration: 'none', color: 'black', height:'50px', width:'50px'}}/></a>
-            <a href="https://www.instagram.com/jeremyyzz/" target="_blank"><FontAwesomeIcon icon={faInstagram} className="p-1 fa-5x" style={{textDecoration: 'none', color: 'red', height:'50px', width:'50px'}}/></a>
-            <a href="https://www.facebook.com/profile.php?id=100009856054876" target="_blank"><FontAwesomeIcon icon={faFacebook} className="p-1 fa-5x" style={{textDecoration: 'none', color: 'blue', height:'50px', width:'50px'}}/></a>
-            <a href="https://www.pinterest.com/" target="_blank"><FontAwesomeIcon icon={faPinterest} className="p-1 fa-5x" style={{textDecoration: 'none', color: 'red', height:'50px', width:'50px'}}/></a>
+          <hr style={{height: '10px', width: '100%'}}/>
+          <div class="col-d-flex justify-content-center form-col">
+            <div class="row d-flex flex-column follow-me">
+              <div class="col d-flex justify-content-center align-items-center">
+                <p style={{fontSize: '50px'}}>Follow me at:</p>
+              </div>
+              <div class="col d-flex justify-content-center align-items-center">
+                <a href="https://github.com/OceanSkys" target="_blank"><FontAwesomeIcon icon={faGithub} className="p-1 fa-5x" style={{textDecoration: 'none', color: 'black', height:'50px', width:'50px'}}/></a>
+                <a href="https://www.instagram.com/jeremyyzz/" target="_blank"><FontAwesomeIcon icon={faInstagram} className="p-1 fa-5x" style={{textDecoration: 'none', color: 'red', height:'50px', width:'50px'}}/></a>
+                <a href="https://www.facebook.com/profile.php?id=100009856054876" target="_blank"><FontAwesomeIcon icon={faFacebook} className="p-1 fa-5x" style={{textDecoration: 'none', color: 'blue', height:'50px', width:'50px'}}/></a>
+                <a href="https://www.pinterest.com/" target="_blank"><FontAwesomeIcon icon={faPinterest} className="p-1 fa-5x" style={{textDecoration: 'none', color: 'red', height:'50px', width:'50px'}}/></a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-  </div>
   )
   }

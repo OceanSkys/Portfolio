@@ -8,6 +8,12 @@ import { faInstagram, faFacebook, faPinterest, faGithub } from '@fortawesome/fre
 
 export default function HeaderFooter() {
 
+    function styleByActiveStatus(isActive) {
+        return isActive 
+        ? {fontWeight: 'bold', textDecoration: 'none'}
+        : { fontWeight: 'normal', textDecoration: 'none'};
+    }
+
   return (
     <div>
         <Navbar bg="light" expand="lg">
@@ -16,9 +22,9 @@ export default function HeaderFooter() {
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="me-auto nav">
                     <div className='nav-div'>
-                        <NavLink style={{textDecoration: 'none'}} to='/'>Home</NavLink>
-                        <NavLink style={{textDecoration: 'none'}} to='/MyProjects'>My Projects</NavLink>
-                        <NavLink style={{textDecoration: 'none'}} to='/Contact'>Contact</NavLink>
+                        <NavLink style={({isActive}) => styleByActiveStatus(isActive)} to='/'>Home</NavLink>
+                        <NavLink style={({isActive}) => styleByActiveStatus(isActive)} to='/MyProjects'>My Projects</NavLink>
+                        <NavLink style={({isActive}) => styleByActiveStatus(isActive)} to='/Contact'>Contact</NavLink>
                     </div>
                 </Nav>
             </Navbar.Collapse>
