@@ -1,10 +1,12 @@
-import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 // import NavDropdown from 'react-bootstrap/NavDropdown';
 import { Outlet, NavLink } from 'react-router-dom';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faInstagram, faFacebook, faPinterest, faGithub } from '@fortawesome/free-brands-svg-icons';
+import { useEffect } from 'react';
+
+import { useState } from 'react';
 
 export default function HeaderFooter() {
 
@@ -13,6 +15,26 @@ export default function HeaderFooter() {
         ? {fontWeight: 'bold', textDecoration: 'none'}
         : { fontWeight: 'normal', textDecoration: 'none'};
     }
+
+    const [visible, setVisible ] = useState(false);
+
+    const toggleVis = () => {
+        const scrolled = document.documentElement.scrollTop;
+        if (scrolled > 1000){
+            setVisible(true)
+        } else if (scrolled <= 1000) {
+            setVisible(false)
+        }
+    };
+
+    const scrollToTop = () => {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    };
+
+    window.addEventListener('scroll', toggleVis);
 
   return (
     <div>
@@ -32,6 +54,24 @@ export default function HeaderFooter() {
         <div>
             <Outlet/>
         </div>
+        <button
+        onClick={scrollToTop}
+        style={{
+          display: visible ? 'inline' : 'none',
+          zIndex: 2,
+          position: 'fixed',
+          padding: '1rem 1rem',
+          fontSize: '20px',
+          bottom: '80px',
+          right: '40px',
+          backgroundColor: '#0C9',
+          color: '#fff',
+          textAlign: 'center',
+          borderRadius: '15%'
+        }}
+      >
+        Top
+      </button>
         <footer class="container-fluid footer1 bg-light mt-3">
             <div class="col-6 d-flex flex-shrink-2 align-items-center fa-3x mx-1 footer1 footerdiv">
                 {/* <!-- Tried using stylesheet to edit these font icons, no luck, so used inline style --> */}
