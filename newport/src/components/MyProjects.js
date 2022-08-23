@@ -31,7 +31,18 @@ export default function MyProjects() {
                 </div>
               </row>
             </section>
-            {/* <!-- Hero Image/First Website --> */}
+            {/* <!-- 3rd Website/React Store --> */}
+            <section class="container my-3 d-flex justify-content-center">
+              <row class="row picRow3 footercolumn2 hero-width">
+                <div class="col-6 d-flex align-items-center justify-items-center width1">
+                  <p class="fs-4"><span class="fs-1 d-flex align-items-center justify-content-center font2 contact_first_website">E-Commerce Website</span><br/> This is my last website that I've worked on! It is a fully functional replica of what it would be like using an E-Commerce Website, with a fully working Cart and Checkout!</p>
+                </div>
+                <div class="col-6 d-flex align-items-center width2">
+                  <a href="https://oceanskys.github.io/finalProject/" target="_blank"><img src={React1} class="img-fluid border border-5 web"  style={{height: '100%', width: '100%', display: 'block'}} id="jer" alt="My Website"/></a>
+                </div>
+              </row>
+            </section>            
+            {/* <!-- First Website --> */}
             <section class="container my-5 d-flex justify-content-center">
               <row class="row picRow3 footercolumn2 hero-width">
                 <div class="col-6 d-flex align-items-center justify-items-center width1">
@@ -50,17 +61,6 @@ export default function MyProjects() {
                 </div>
                 <div class="col-6 d-flex align-items-center width2">
                   <a href="https://oceanskys.github.io/magic8ball/" target="_blank"><img src={Magic8} class="img-fluid border border-5 web"  style={{height: '100%', width: '100%', display: 'block'}} id="jer" alt="My Website"/></a>
-                </div>
-              </row>
-            </section>
-            {/* <!-- 3rd Website/React Store --> */}
-            <section class="container my-3 d-flex justify-content-center">
-              <row class="row picRow3 footercolumn2 hero-width">
-                <div class="col-6 d-flex align-items-center justify-items-center width1">
-                  <p class="fs-4"><span class="fs-1 d-flex align-items-center justify-content-center font2 contact_first_website">My Third Website</span><br/> This is my last website that I've worked on! It is a fully functional replica of what it would be like using an E-Commerce Website, with a fully working Cart and Checkout!</p>
-                </div>
-                <div class="col-6 d-flex align-items-center width2">
-                  <a href="https://oceanskys.github.io/finalProject/" target="_blank"><img src={React1} class="img-fluid border border-5 web"  style={{height: '100%', width: '100%', display: 'block'}} id="jer" alt="My Website"/></a>
                 </div>
               </row>
             </section>

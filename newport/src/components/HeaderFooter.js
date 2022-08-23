@@ -60,17 +60,20 @@ export default function HeaderFooter() {
           display: visible ? 'inline' : 'none',
           zIndex: 2,
           position: 'fixed',
-          padding: '1rem 1rem',
+          padding: '.8rem .8rem',
           fontSize: '20px',
           bottom: '80px',
           right: '40px',
-          backgroundColor: '#0C9',
+          backgroundColor: '#509de6',
           color: '#fff',
           textAlign: 'center',
           borderRadius: '15%'
+          
         }}
       >
-        Top
+        <span class="material-symbols-outlined fs-1" style={{display: 'flex'}}>
+        arrow_upward
+        </span>
       </button>
         <footer class="container-fluid footer1 bg-light mt-3">
             <div class="col-6 d-flex flex-shrink-2 align-items-center fa-3x mx-1 footer1 footerdiv">
