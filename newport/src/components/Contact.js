@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faInstagram, faFacebook, faPinterest, faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faInstagram, faFacebook, faPinterest, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import PicofMe from '../img/Picofme2.png';
 
 export default function Contact() {
@@ -27,9 +27,9 @@ return (
               </div>
               <div class="col d-flex justify-content-center align-items-center">
                 <a href="https://github.com/OceanSkys" target="_blank"><FontAwesomeIcon icon={faGithub} className="p-1 fa-5x" style={{textDecoration: 'none', color: 'black', height:'50px', width:'50px'}}/></a>
+                <a href="https://www.linkedin.com/in/jeremy-thornton-7aa1b9248/" target="_blank"><FontAwesomeIcon icon={faLinkedin} className="p-1 fa-5x" style={{textDecoration: 'none', color: '0077b5', height:'50px', width:'50px'}}/></a>
                 <a href="https://www.instagram.com/jeremyyzz/" target="_blank"><FontAwesomeIcon icon={faInstagram} className="p-1 fa-5x" style={{textDecoration: 'none', color: 'red', height:'50px', width:'50px'}}/></a>
                 <a href="https://www.facebook.com/profile.php?id=100009856054876" target="_blank"><FontAwesomeIcon icon={faFacebook} className="p-1 fa-5x" style={{textDecoration: 'none', color: 'blue', height:'50px', width:'50px'}}/></a>
-                <a href="https://www.pinterest.com/" target="_blank"><FontAwesomeIcon icon={faPinterest} className="p-1 fa-5x" style={{textDecoration: 'none', color: 'red', height:'50px', width:'50px'}}/></a>
               </div>
             </div>
           </div>

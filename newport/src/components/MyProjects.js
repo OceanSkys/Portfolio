@@ -1,7 +1,4 @@
 import { useState } from 'react'
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faInstagram, faFacebook, faPinterest, faGithub } from '@fortawesome/free-brands-svg-icons';
-import { NavLink } from 'react-router-dom';
 import WeatherImg from '../img/WeatherImg.png';
 import FirstWebsite from '../img/Screenshot (388).png';
 import Magic8  from '../img/magic8ball.png';
@@ -57,7 +54,7 @@ export default function MyProjects() {
             <section class="container my-5 d-flex justify-content-center">
               <row class="row picRow3 footercolumn2 hero-width">
                 <div class="col-6 d-flex align-items-center justify-items-center width1">
-                  <p class="fs-4 "><span class="fs-1 d-flex align-items-center justify-content-center font2 contact_first_website">My Second Website</span><br/> This is my second ever website! After learning html, css, and mobile-responsiveness, we were tasking in making a Magic 8 Ball project! It is completely functional and full of animations. Give it a try!</p>
+                  <p class="fs-4 "><span class="fs-1 d-flex align-items-center justify-content-center font2 contact_first_website">My Second Website</span><br/> This is my second ever website! After learning html, css, and mobile-responsiveness, we were tasked in making a Magic 8 Ball project! It is completely functional and full of animations. Ask it some questions and give it a try!</p>
                 </div>
                 <div class="col-6 d-flex align-items-center width2">
                   <a href="https://oceanskys.github.io/magic8ball/" target="_blank"><img src={Magic8} class="img-fluid border border-5 web"  style={{height: '100%', width: '100%', display: 'block'}} id="jer" alt="My Website"/></a>
@@ -87,8 +84,8 @@ export default function MyProjects() {
             <div class="container my-5 d-flex justify-content-center">
               <div class="row picrow4 flex-row justify-content-center align-items-center hero-width">
                 <div class="ytflip col-6">
-                  <div class="row ytflip d-flex">
-                    <div class="col-6 ytflip2">
+                  <div class="row ytflip ">
+                    <div class="col-6 ytflip2 p-4">
                       <p class="fs-4"><span class="fs-1 font1 d-flex justify-content-center">Experience with Video Editing</span><br/>I do happen to have a YouTube channel about gaming and have a little experience with video editing using Davinci Resolve. Film and video have always been fascinating to me and I would love to continue exploring it more.</p>
                     </div>
                     <div class="col-6 d-flex align-self-center justify-content-center embed-responsive embed-responsive-16by9 ytflip2">
@@ -101,7 +98,7 @@ export default function MyProjects() {
                   <div class="ytflip col-6">
                     <div class="row ytflip">
                       <div class="col-6 d-flex ytflip2">
-                        <p class="fs-4"><span class="fs-1 font1 d-flex justify-content-center">Experience with Lua</span><br/>Lua is a programming language that I have tinkered with in a video game called Roblox. While I am still not great at it, I can see similarities between it and html/css/javascript.</p>
+                        <p class="fs-4"><span class="fs-1 font1 d-flex justify-content-center">Experience with Lua</span><br/>Lua is a programming language that I have tinkered with in a video game called Roblox. I can see similarities between it and JavaScript so it makes learning JavaScript a little easier to understand!</p>
                       </div>
                       <div class="col-6 d-flex ytflip3">
                         <img src={rblxcode} class='border border-dark' alt="Roblox Lua Code" height="auto" width="100%"/> 

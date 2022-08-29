@@ -40,7 +40,7 @@ export default function Home() {
         <div class="container-fluid justify-content-center flex-wrap my-4 pt-5 pb-5">
             <row class="d-flex align-items-center justify-content-between carousel-section ">
             <div class="col-5 d-flex justify-content-center align-items-center aboutme left_bottom">
-                <p class="font fs-4 col-8 aboutmetxt"><span class="h1 d-flex align-items-center justify-content-center font1">My Hobbies</span><br/>When I am not coding or working on college coursework, I love listening to music! Some of my favorite artists include Bon Iver, Kid Cudi, Phoebe Bridgers, and Coldplay. I also really enjoy playing videos games, and you can find me playing Rocket League, Minecraft, or Fortnite with my little brother. When I have more free time, I love to travel. Hiking is a great passion of mine as well. Photography is another great hobby that I would love to continue when I am able to afford a nice camera. </p>
+                <p class="font fs-4 col-8 aboutmetxt"><span class="h1 d-flex align-items-center justify-content-center font1">My Hobbies</span><br/>When I am not coding or working on college coursework, I love listening to music! Some of my favorite artists include Bon Iver, Kid Cudi, Phoebe Bridgers, and listening to podcasts. I also really enjoy playing videos games, and you can find me playing Rocket League, Minecraft, or Fortnite with my little brother. In my free time, I love to traveling to the mountains and to the coast. Hiking is also a great passion of mine as well. Photography is another hobby that I would love to continue when I am able to afford a nice camera. </p>
             </div>
             <Carousel className='right_top' fade>
                 <Carousel.Item>
