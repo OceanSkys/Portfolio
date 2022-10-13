@@ -8,6 +8,7 @@ import Image2 from '../img/Image2.JPG';
 import Image18 from '../img/IMG_1018.JPG';
 import BroJumping from '../img/brojumping.jpg';
 import rblxcode from '../img/rblxcode.png';
+import ECom2 from '../img/Screenshot2.png';
 
 export default function MyProjects() {
 
@@ -32,13 +33,24 @@ export default function MyProjects() {
             <section class="container my-3 d-flex justify-content-center">
               <row class="row picRow3 footercolumn2 hero-width">
                 <div class="col-6 d-flex align-items-center justify-items-center width1">
-                  <p class="fs-4"><span class="fs-1 d-flex align-items-center justify-content-center font2 contact_first_website">E-Commerce Website</span><br/> This is my last website that I've worked on! It is a fully functional replica of what it would be like using an E-Commerce Website, with a fully working Cart and Checkout!</p>
+                  <p class="fs-4"><span class="fs-1 d-flex align-items-center justify-content-center font2 contact_first_website">E-Commerce Website</span><br/> This is the first E-Commerce website that I've worked on! It is a fully functional replica of what it would be like using an E-Commerce Website, with a fully working Cart and Checkout!</p>
                 </div>
                 <div class="col-6 d-flex align-items-center width2">
                   <a href="https://oceanskys.github.io/finalProject/" target="_blank"><img src={React1} class="img-fluid border border-5 web"  style={{height: '100%', width: '100%', display: 'block'}} id="jer" alt="My Website"/></a>
                 </div>
               </row>
-            </section>            
+            </section>    
+            {/* <!-- React Store #2--> */}
+            <section class="container my-3 d-flex justify-content-center">
+              <row class="row picRow3 footercolumn2 hero-width">
+                <div class="col-6 d-flex align-items-center justify-items-center width1">
+                  <p class="fs-4"><span class="fs-1 d-flex align-items-center justify-content-center font2 contact_first_website">E-Commerce Website #2</span><br/> This is my last website E-Commerce website that I've made for a final in class project. It is an improvement from the first website, and I put a unique design spin it!</p>
+                </div>
+                <div class="col-6 d-flex align-items-center width2">
+                  <a href="https://oceanskys.github.io/react-final-project/" target="_blank"><img src={ECom2} class="img-fluid border border-5 web"  style={{height: '100%', width: '100%', display: 'block'}} id="jer" alt="My Website"/></a>
+                </div>
+              </row>
+            </section>                          
             {/* <!-- First Website --> */}
             <section class="container my-5 d-flex justify-content-center">
               <row class="row picRow3 footercolumn2 hero-width">
