@@ -12,7 +12,7 @@
   
     .contact-form {
       max-width: 465px;
-      max-height: 450px;
+      height: auto;
       background-color: aliceblue;
       object-fit: contain;
       border: solid black
