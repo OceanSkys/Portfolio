@@ -11,22 +11,30 @@
     }
   
     .contact-form {
+      display: flex;
       max-width: 465px;
+      max-height: 445px;
       height: auto;
+      width: auto;
       background-color: aliceblue;
       object-fit: contain;
-      border: solid black
+      border: solid black;
+      margin-bottom: 30px;
     }
     .form-col {
   
       width: 100%;
+      object-fit: contain;
+      display: flex;
       height: auto;
+
     }
     .form-col2 {
       width: 1px;
       height: 100%;
       background-color: lightgray;
     }
+
     .row-form {
       width: 550px;;
       height: 440px;
@@ -50,7 +58,9 @@
     .aboutmepic2 {
       border-radius: 30%;
       width: 100%;
-      height: auto;
+      max-width: 180px;
+      max-height: 180px;
+      height: 180px;
     }
     .font2{
       font-size: 80px;
