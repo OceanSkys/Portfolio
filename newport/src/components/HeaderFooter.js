@@ -3,9 +3,7 @@ import Navbar from 'react-bootstrap/Navbar';
 // import NavDropdown from 'react-bootstrap/NavDropdown';
 import { Outlet, NavLink } from 'react-router-dom';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faInstagram, faFacebook, faPinterest, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
-import { useEffect } from 'react';
-
+import { faInstagram, faFacebook, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { useState } from 'react';
 
 export default function HeaderFooter() {
