@@ -7,7 +7,7 @@ export default function Contact() {
 return (
     <div>
       {/* <!-- Contact Forum, edited placeholders and redid a couple sections--> */}
-      <div class="container border-5 border border-color-secondary my-5 contact-form ">
+      <div class="container my-5 contact-form ">
         <div class="row row-form">
           <div class="col d-flex justify-content-center form-col">
             <div class="row d-flex flex-column follow-me">
@@ -19,7 +19,9 @@ return (
               </div>
             </div>       
           </div>
-          <hr style={{height: '10px', width: '100%'}}/>
+          <div style={{display:'flex', justifyContent:'center', height:'auto', minWidth:'100%'}}>
+            <hr style={{height: '10px', width: '100%'}}/> 
+          </div>
           <div class="col-d-flex justify-content-center form-col">
             <div class="row d-flex flex-column follow-me">
               <div class="col d-flex justify-content-center align-items-center">

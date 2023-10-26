@@ -11,10 +11,11 @@
     }
   
     .contact-form {
-      max-width: 475px;
-      height: 450px;
+      max-width: 465px;
+      max-height: 450px;
       background-color: aliceblue;
       object-fit: contain;
+      border: solid black
     }
     .form-col {
   
@@ -32,7 +33,7 @@
       object-fit: contain;
       display: flex;
       flex-direction: row;
-      border: solid;
+      /* border: solid; */
     }
     .follow-me{
       height: auto;
