@@ -5,7 +5,7 @@ import PicofMe from '../img/Picofme2.png';
 export default function Contact() {
 
 return (
-    <div>
+    <div style={{margin:'auto'}}>
       {/* <!-- Contact Forum, edited placeholders and redid a couple sections--> */}
       <div class="container my-5 contact-form ">
         <div class="row row-form">
