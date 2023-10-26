@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.f4d8ddfa.css",
-    "main.js": "/Portfolio/static/js/main.acd03885.js",
+    "main.css": "/Portfolio/static/css/main.fe6c06f1.css",
+    "main.js": "/Portfolio/static/js/main.fd3826f5.js",
     "static/js/787.d168572b.chunk.js": "/Portfolio/static/js/787.d168572b.chunk.js",
     "static/media/Sunlit Viola.JPG": "/Portfolio/static/media/Sunlit Viola.f349a496919ba963e574.JPG",
     "static/media/IMG_1004.JPG": "/Portfolio/static/media/IMG_1004.7f047f8846b236d884a4.JPG",
@@ -21,12 +21,12 @@
     "static/media/Picofme2.png": "/Portfolio/static/media/Picofme2.c5cfbfdd0c6cf2cd600f.png",
     "static/media/Beach.jpg": "/Portfolio/static/media/Beach.8843d7b0b8dfa03d6db6.jpg",
     "index.html": "/Portfolio/index.html",
-    "main.f4d8ddfa.css.map": "/Portfolio/static/css/main.f4d8ddfa.css.map",
-    "main.acd03885.js.map": "/Portfolio/static/js/main.acd03885.js.map",
+    "main.fe6c06f1.css.map": "/Portfolio/static/css/main.fe6c06f1.css.map",
+    "main.fd3826f5.js.map": "/Portfolio/static/js/main.fd3826f5.js.map",
     "787.d168572b.chunk.js.map": "/Portfolio/static/js/787.d168572b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f4d8ddfa.css",
-    "static/js/main.acd03885.js"
+    "static/css/main.fe6c06f1.css",
+    "static/js/main.fd3826f5.js"
   ]
 }
