@@ -11,7 +11,7 @@ return (
         <div class="row row-form">
           <div class="col d-flex justify-content-center form-col">
             <div class="row d-flex flex-column follow-me">
-              <div class="col p-2 d-flex pic-col justify-content-center align-content-center">
+              <div style={{border: 'solid', borderColor:'pink'}}class="col p-2 d-flex pic-col justify-content-center align-content-center">
                 <img src={PicofMe} class=" d-flex align-content-center justify-content-center aboutmepic2 " alt="Picture of Jeremy"/> 
               </div>
               <div class="col d-flex email-col justify-content-center align-items-center">
